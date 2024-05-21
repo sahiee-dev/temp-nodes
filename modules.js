@@ -1,0 +1,7 @@
+const names = require('./temporary')
+const sayHi  = require('./temporary-1')
+const altmethod = require('./altmethod')
+require('./mindgreande')
+sayHi('susan')
+sayHi(names.john)
+sayHi(names.peter)
